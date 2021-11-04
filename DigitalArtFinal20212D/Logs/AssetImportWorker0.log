@@ -15,109 +15,109 @@ C:/Users/fiona/Documents/GitHub/DigitalArtFinal2021/DigitalArtFinal20212D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49154
+53477
 Successfully changed project path to: C:/Users/fiona/Documents/GitHub/DigitalArtFinal2021/DigitalArtFinal20212D
 C:/Users/fiona/Documents/GitHub/DigitalArtFinal2021/DigitalArtFinal20212D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 205.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 162.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.2.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/fiona/Documents/GitHub/DigitalArtFinal2021/DigitalArtFinal20212D/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GPU (ID=0x134b)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
     Vendor:   
-    VRAM:     987 MB
-    Driver:   27.21.14.5167
+    VRAM:     4054 MB
+    Driver:   27.20.100.9168
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005378 seconds.
+Registered in 0.010042 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 93.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 159.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.162 seconds
+- Completed reload, in  6.188 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2163ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (6189ms)
+		BeginReloadAssembly (266ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (951ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (5ms)
+		EndReloadAssembly (1629ms)
+			LoadAssemblies (255ms)
 			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (357ms)
+			SetupTypeCache (613ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (351ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (602ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
-				BeforeProcessingInitializeOnLoad (23ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (160ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012244 seconds.
+Registered in 0.026056 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 129.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.759 seconds
+- Completed reload, in  4.387 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1761ms)
-		BeginReloadAssembly (217ms)
+	ReloadAssembly (4391ms)
+		BeginReloadAssembly (536ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1445ms)
-			LoadAssemblies (145ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (3620ms)
+			LoadAssemblies (379ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (423ms)
+			SetupTypeCache (1181ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (626ms)
+			RebuildScriptCaches (188ms)
+			SetupLoadedEditorAssemblies (1349ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (135ms)
-				ProcessInitializeOnLoadAttributes (396ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (255ms)
+				ProcessInitializeOnLoadAttributes (868ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (31ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.1 MB.
 System memory in use after: 93.2 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2528.
-Total: 4.507100 ms (FindLiveObjects: 0.277600 ms CreateObjectMapping: 0.120500 ms MarkObjects: 3.991300 ms  DeleteObjects: 0.115600 ms)
+Total: 15.991600 ms (FindLiveObjects: 0.337600 ms CreateObjectMapping: 0.192200 ms MarkObjects: 14.262500 ms  DeleteObjects: 1.189900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,41 +131,177 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Beanstalk_BigTilesheet.png
+  artifactKey: Guid(be4aaf79c384b194cb49a45f4b147b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beanstalk_BigTilesheet.png using Guid(be4aaf79c384b194cb49a45f4b147b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0940115b354faf7203e7c325c3dab80e') in 0.496855 seconds 
+  Import took 0.509056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001412 seconds.
   path: Assets/LightningCloud_SmallTilesheet.psd
   artifactKey: Guid(f034551fd81149540adc382a2e2c0dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LightningCloud_SmallTilesheet.psd using Guid(f034551fd81149540adc382a2e2c0dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3b83f13347b9f3113d859f028f8e6c') in 0.195934 seconds 
-  Import took 0.202553 seconds .
+Start importing Assets/LightningCloud_SmallTilesheet.psd using Guid(f034551fd81149540adc382a2e2c0dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd833095832346377255e4f357b840b0') in 0.042453 seconds 
+  Import took 0.051182 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001259 seconds.
+  Time since last request: 0.000626 seconds.
   path: Assets/LightningCloud_BigTilesheet.psd
   artifactKey: Guid(08bc1bd135138824788d94b7c312550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LightningCloud_BigTilesheet.psd using Guid(08bc1bd135138824788d94b7c312550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c66fb073cee0e7e3028075ae33c45fd') in 0.093415 seconds 
-  Import took 0.099655 seconds .
+Start importing Assets/LightningCloud_BigTilesheet.psd using Guid(08bc1bd135138824788d94b7c312550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a95d4bcb4d8ba8f5db5a849935a3f0') in 0.024657 seconds 
+  Import took 0.033684 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/LightningCloud_BigTilesheet.png
-  artifactKey: Guid(12f0ce2dfe3b44e4e8d9f1c78a703a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LightningCloud_BigTilesheet.png using Guid(12f0ce2dfe3b44e4e8d9f1c78a703a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09277df8ee6ec4a781b11b4874d4cb87') in 0.162397 seconds 
-  Import took 0.167634 seconds .
+  Time since last request: 0.000557 seconds.
+  path: Assets/Beanstalk_SmallTilesheet.psd
+  artifactKey: Guid(71fc212c62ea4a148860215b77a36832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beanstalk_SmallTilesheet.psd using Guid(71fc212c62ea4a148860215b77a36832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb2f9fdbf7124238e7c747a29d13fb3') in 0.025989 seconds 
+  Import took 0.035774 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.343062 seconds.
+  Time since last request: 0.000873 seconds.
   path: Assets/LightningCloud_BigTilesheet.png
   artifactKey: Guid(12f0ce2dfe3b44e4e8d9f1c78a703a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LightningCloud_BigTilesheet.png using Guid(12f0ce2dfe3b44e4e8d9f1c78a703a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844622a8d275cb3e9f3a38d333e4fcd2') in 0.038558 seconds 
-  Import took 0.048093 seconds .
+Start importing Assets/LightningCloud_BigTilesheet.png using Guid(12f0ce2dfe3b44e4e8d9f1c78a703a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff7411714ff4a3a08246dd26a53fbd5') in 0.098344 seconds 
+  Import took 0.105604 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 78.697335 seconds.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Beanstalk_BigTilesheet.psd
+  artifactKey: Guid(72a7d8e84f8bb5a4d9fc4cd3670b1eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beanstalk_BigTilesheet.psd using Guid(72a7d8e84f8bb5a4d9fc4cd3670b1eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5f5cc0b4c39d54843b0bf02e9cd66a') in 0.039414 seconds 
+  Import took 0.050375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.445395 seconds.
+  path: Assets/Beanstalk_BigTilesheet.png
+  artifactKey: Guid(be4aaf79c384b194cb49a45f4b147b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beanstalk_BigTilesheet.png using Guid(be4aaf79c384b194cb49a45f4b147b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30baae452a8631d8a3503b0aab60bf9d') in 0.022345 seconds 
+  Import took 0.048289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.187556 seconds.
+  path: Assets/Beanstalk_BigTilesheet.png
+  artifactKey: Guid(be4aaf79c384b194cb49a45f4b147b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beanstalk_BigTilesheet.png using Guid(be4aaf79c384b194cb49a45f4b147b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30baae452a8631d8a3503b0aab60bf9d') in 0.096032 seconds 
+  Import took 0.114841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.369322 seconds.
+  path: Assets/Beanstalk_BigTilesheet.png
+  artifactKey: Guid(be4aaf79c384b194cb49a45f4b147b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beanstalk_BigTilesheet.png using Guid(be4aaf79c384b194cb49a45f4b147b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b2485def059b60b84052b87b645a14') in 0.106579 seconds 
+  Import took 0.118783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1582.655200 seconds.
+  path: Assets/Beanstalk_BigTilesheet.png
+  artifactKey: Guid(be4aaf79c384b194cb49a45f4b147b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beanstalk_BigTilesheet.png using Guid(be4aaf79c384b194cb49a45f4b147b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bebfeaa6192598ae8fae89b12df20f9') in 0.132270 seconds 
+  Import took 0.169103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.065849 seconds.
   path: Assets/LightningCloud_BigTilesheet.png
   artifactKey: Guid(12f0ce2dfe3b44e4e8d9f1c78a703a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LightningCloud_BigTilesheet.png using Guid(12f0ce2dfe3b44e4e8d9f1c78a703a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345b392d27b069b67aaa9b4ee33292af') in 0.070589 seconds 
-  Import took 0.078501 seconds .
+Start importing Assets/LightningCloud_BigTilesheet.png using Guid(12f0ce2dfe3b44e4e8d9f1c78a703a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afc8276e34f337051214cd3b719ea29') in 0.131260 seconds 
+  Import took 0.173237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 503.045529 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.007905 seconds 
+  Import took 0.015441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.709542 seconds.
+  path: Assets/PSD Files
+  artifactKey: Guid(280ca5f758e5b62439458f6207f31449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PSD Files using Guid(280ca5f758e5b62439458f6207f31449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c49b9735229d69a9f89fb471f25e7ec') in 0.010418 seconds 
+  Import took 0.023271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 745.719718 seconds.
+  path: Assets/Beanstalk_BigTilesheet.png
+  artifactKey: Guid(be4aaf79c384b194cb49a45f4b147b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beanstalk_BigTilesheet.png using Guid(be4aaf79c384b194cb49a45f4b147b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c5f81bae92c71c3feb8434176a39b0') in 0.083696 seconds 
+  Import took 0.113917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009366 seconds.
+  path: Assets/Beanstalk_BigTilesheet.png
+  artifactKey: Guid(be4aaf79c384b194cb49a45f4b147b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beanstalk_BigTilesheet.png using Guid(be4aaf79c384b194cb49a45f4b147b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c5f81bae92c71c3feb8434176a39b0') in 0.125462 seconds 
+  Import took 0.134310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.133919 seconds.
+  path: Assets/Beanstalk_SmallTilesheet.png
+  artifactKey: Guid(32fbda737634b3f4fb879170dd34df0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beanstalk_SmallTilesheet.png using Guid(32fbda737634b3f4fb879170dd34df0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a057b2f6458490c55bb127df641043f4') in 0.026273 seconds 
+  Import took 0.049668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/LightningCloud_SmallTilesheet.png
+  artifactKey: Guid(f235295403bfb21459e054c4a5d70ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LightningCloud_SmallTilesheet.png using Guid(f235295403bfb21459e054c4a5d70ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53a9ca49af9445411fc5483ec19d33a') in 0.018091 seconds 
+  Import took 0.023802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.928705 seconds.
+  path: Assets/Beanstalk_SmallTilesheet.png
+  artifactKey: Guid(32fbda737634b3f4fb879170dd34df0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beanstalk_SmallTilesheet.png using Guid(32fbda737634b3f4fb879170dd34df0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fa74fe42f54ac7568a15a0fd3bce92') in 0.041139 seconds 
+  Import took 0.052364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.977928 seconds.
+  path: Assets/Beanstalk_SmallTilesheet.png
+  artifactKey: Guid(32fbda737634b3f4fb879170dd34df0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beanstalk_SmallTilesheet.png using Guid(32fbda737634b3f4fb879170dd34df0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8555eaac2d4e20cc1e535edb2dfff6a') in 0.088605 seconds 
+  Import took 0.096442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.734206 seconds.
+  path: Assets/LightningCloud_SmallTilesheet.png
+  artifactKey: Guid(f235295403bfb21459e054c4a5d70ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LightningCloud_SmallTilesheet.png using Guid(f235295403bfb21459e054c4a5d70ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf037c166c5f9dd7bda0c0cc9715426c') in 0.039066 seconds 
+  Import took 0.060371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005312 seconds.
+  path: Assets/LightningCloud_SmallTilesheet.png
+  artifactKey: Guid(f235295403bfb21459e054c4a5d70ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LightningCloud_SmallTilesheet.png using Guid(f235295403bfb21459e054c4a5d70ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf037c166c5f9dd7bda0c0cc9715426c') in 0.054756 seconds 
+  Import took 0.065605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.516532 seconds.
+  path: Assets/LightningCloud_SmallTilesheet.png
+  artifactKey: Guid(f235295403bfb21459e054c4a5d70ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LightningCloud_SmallTilesheet.png using Guid(f235295403bfb21459e054c4a5d70ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cea4e79c1e9ada76263b8db9490c501') in 0.138163 seconds 
+  Import took 0.151127 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
