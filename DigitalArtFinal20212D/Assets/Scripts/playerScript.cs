@@ -61,6 +61,9 @@ public class playerScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             rb.velocity = transform.up * jumpStrength;
+            // if user does press-space and player is on-ground, then do jetpack-startup
+            // if in-air, then do looping-jetpack-in-air
+            // if in-air and just-hit-the-ground, then do jetpack-shutdown
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
@@ -68,11 +71,12 @@ public class playerScript : MonoBehaviour
             Attack();
         }
     }
-
+    
     public void Attack()
     {
         if(isProjectile == true)
         {
+            // do open-mini-rocket-doors-on-handlebars anim THEN do instantiate rockets
             Instantiate(yourProjectile, transform.position, Quaternion.identity);
         }
         else
