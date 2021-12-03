@@ -11,6 +11,7 @@ public class playerScript : MonoBehaviour
     Rigidbody2D rb;
     public GameObject yourProjectile;
     public bool isProjectile;
+    public GameObject spawnPoint;
 
     public Animator anim;
     // Start is called before the first frame update
@@ -18,6 +19,7 @@ public class playerScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        anim.SetBool("SideArrow", false);
     }
 
     // Update is called once per frame
@@ -26,26 +28,26 @@ public class playerScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             //make your walking animation start
-            
+            anim.SetBool("SideArrow", true);
             
         }
 
         if (Input.GetKeyUp(KeyCode.LeftArrow))
         {
             //make your walking animation stop
-
+            anim.SetBool("SideArrow", false);
         }
 
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             //make your walking animation start
-            //
+            anim.SetBool("SideArrow", true);
         }
 
         if (Input.GetKeyUp(KeyCode.RightArrow))
         {
             //make your walking animation stop
-
+            anim.SetBool("SideArrow", false);
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
@@ -61,6 +63,7 @@ public class playerScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             rb.velocity = transform.up * jumpStrength;
+            anim.SetTrigger("PlayerPressJump");
             // if user does press-space and player is on-ground, then do jetpack-startup
             // if in-air, then do looping-jetpack-in-air
             // if in-air and just-hit-the-ground, then do jetpack-shutdown
@@ -71,13 +74,32 @@ public class playerScript : MonoBehaviour
             Attack();
         }
     }
-    
+
+    public void OnTriggerEnter2D(Collider other)
+    {
+        if (other.CompareTag("Ground"))
+        {
+            anim.SetTrigger("Touchdown Trigger");
+            anim.SetBool("OnGround", true);
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Ground"))
+        {
+            //anim.SetTrigger("Touchdown Trigger");
+            anim.SetBool("OnGround", false);
+        }
+    }
+
     public void Attack()
     {
+        anim.SetTrigger("PlayerAttack");
         if(isProjectile == true)
         {
             // do open-mini-rocket-doors-on-handlebars anim THEN do instantiate rockets
-            Instantiate(yourProjectile, transform.position, Quaternion.identity);
+            Instantiate(yourProjectile,spawnPoint.transform.position, Quaternion.identity);
         }
         else
         {
